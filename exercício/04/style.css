@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: #030355;
+    font: normal 16px Arial;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    }
+
+
+section{
+    background-color: #fff;
+    border-radius: 10px;
+    width:500px;
+    padding: 15px;
+    color: #000;
+    margin: auto;
+}
+
+input{
+    margin: 8px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #b0b0da;
+    border-radius: 5px;
+}
+
+ 
+#botao{
+    padding: 10px;
+    text-transform: uppercase;
+    color: #030355;
+    cursor: pointer;
+}
+#botao:hover{
+    background-color: #030355;
+    color: #fff;
+}
+ footer{
+    text-align: center;
+}

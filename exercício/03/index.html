@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que horas são?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body id="corpo">
+        <header>
+            <h1>Vamos contar</h1>
+        </header>
+
+        <section>
+          <p>Início: <input type="number" name="txtin" id="txtin" ></p>
+
+          <p>Fim: <input type="number" name="txtfi" id="txtfi"></p>
+
+          <p>Passo: <input type="number" name="txtpa" id="txtpa"></p>
+         
+          <input type="submit" value="Contar" id="botao" onclick="contar()">
+
+          <div id="cont">Preparando contagem...</div>
+          <div id="cont2"></div>
+
+        </section>
+
+        <footer>
+            <p>&copy; CursoemVídeo</p>
+        </footer>
+        <script src="script.js"></script>
+   
+</body>
+</html>

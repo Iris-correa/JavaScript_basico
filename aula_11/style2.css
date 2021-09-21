@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #030355;
+    color: #fff;
+    text-align: center;
+}
+
+input#txtn1 {
+    width: 150px;
+    padding: 8px;
+    border-radius:5px;
+    outline: none;
+}
+
+input#botao {
+    background-color: #6060f1;
+    color: #fff;
+    width: 80px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+input#botao:hover{
+    background-color: #010125;
+    cursor: pointer;
+}
+
+#res{
+    margin: 20px;
+}

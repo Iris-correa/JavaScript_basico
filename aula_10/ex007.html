@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        #area{
+            font: normal 20pt Arial ;
+            background: #030355;
+            color: #fff;
+            width: 200px;
+            height: 200px;
+            line-height:200px ;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" > <!--Configuração do método onclick="clicar()" onmouseenter="enter()" onmouseout="sair()"-->
+        Interaja...
+    </div>
+    <script>
+        var a =document.querySelector('div#area')
+
+        a.addEventListener('click', clique)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        
+        function clique(){ // Quando eu chamar o clicar ele vai executar tudo que está aqui dentro
+             // a é um objeto que tem a ligação como elemento área 
+          //  a.style.background = 'pink' change the color
+         a.innerText = 'Clicou!'
+        } // mudar o texto 
+
+        function entrar(){ // Entrar
+            a.innerText = 'Entrou!'
+            a.style.background = '#020699'
+        }
+
+        function sair(){
+            a.innerText = 'Saiu!'
+            a.style.background = '#030355'
+        }
+    </script>
+</body>
+</html>

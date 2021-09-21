@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: #030355;
+    color: #fff;
+    text-align: center;
+}
+
+#first-box, #sec-box{
+    width: 200px;
+    height: 200px;
+    background-color: #5353c9;
+    line-height: 200px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px ;
+}
+
+#sec-box{
+    float: right;
+}
+
+#first-box {
+    float: left;
+}
+
